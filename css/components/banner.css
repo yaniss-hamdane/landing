@@ -1,0 +1,77 @@
+#banner {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover; 
+}
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.banner-text h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.banner-text p {
+    font-size: 1.2rem; 
+    margin-bottom: 30px;
+}
+
+.banner-buttons {
+    margin-top: 20px;
+}
+
+.cta-button {
+    background-color: #FF8C00;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem; 
+    transition: background-color 0.3s ease;
+    margin: 10px; 
+    display: inline-block;
+}
+
+.cta-button:hover {
+    background-color: #FFA500; 
+}
+
+@media (max-width: 768px) {
+    .banner-text {
+        top: 40%;
+        padding: 20px;
+    }
+
+    .banner-buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cta-button {
+        margin: 5px 0; 
+    }
+
+    .banner-text h2 {
+        font-size: 2rem; 
+    }
+
+    .banner-text p {
+        font-size: 1.1rem;
+    }
+}

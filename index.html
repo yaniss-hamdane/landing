@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Finance Campus - Le média étudiant dédié à la finance d'entreprise. Découvrez des interviews, des articles d'actualité, et des guides sur le M&A et le Private Equity.">
+    <meta name="keywords" content="finance, M&A, private equity, interviews, articles, guides, étudiants, banque d'investissement">
+    <meta name="author" content="Finance Campus">
+    <link rel="stylesheet" href="style2.css">
+    <title>Finance Campus - Accueil</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+        
+
+
+    <main>
+       <section id="banner" aria-labelledby="banner-heading">
+    <img src="images/banner.jpg" alt="Bannière du site Finance Campus" class="banner-img">
+    <div class="banner-text">
+        <h2 id="banner-heading">Bienvenue sur Finance Campus</h2>
+        <p>Explorez le monde du M&A et du Private Equity à travers des interviews, des articles d'actualité et des guides spécialement conçus pour les étudiants en finance.</p>
+        
+        <!-- Boutons ajoutés -->
+        <div class="banner-buttons">
+            <a href="#guides" class="cta-button">Voir les guides</a>
+            <a href="#interviews" class="cta-button">Interviews</a>
+            <a href="#articles" class="cta-button">Articles d'actualité</a>
+        </div>
+    </div>
+</section>
+
+
+
+
+        <section id="interviews" aria-labelledby="interviews-heading">
+    <h2 id="interviews-heading">Interviews de Professionnels</h2>
+    <p>Découvrez les témoignages et conseils de professionnels du M&A et du Private Equity.</p>
+
+    <div class="interview-container">
+        <article class="interview">
+            <img src="images/interview1.jpeg" alt="Jean Dupont" class="interview-img">
+            <h3>Interview avec Léo Dupont, Directeur M&A chez Goldman Sachs</h3>
+            <p>Léo Dupont partage son parcours et ses conseils pour réussir dans le secteur du M&A.</p>
+            <a href="interview-jean-dupont.html">Lire l'interview complète</a>
+        </article>
+
+        <article class="interview">
+            <img src="images/interview2.jpeg" alt="Marie Durand" class="interview-img">
+            <h3>Interview avec Ali Mahajad, Vice-Président chez Ardian</h3>
+            <p>Ali Mahajad nous parle des défis et opportunités dans le domaine du Private Equity.</p>
+            <a href="interview-marie-durand.html">Lire l'interview complète</a>
+        </article>
+    </div>
+</section>
+
+
+
+        <section id="articles" aria-labelledby="articles-heading">
+            <h2 id="articles-heading">Articles d'Actualité</h2>
+            <p>Restez informé des dernières tendances et évolutions du secteur.</p>
+            <article class="news-article">
+                <h3>L'impact de l'intelligence artificielle sur le secteur financier</h3>
+                <p>Comment l'IA transforme les processus dans le monde de la finance d'entreprise.</p>
+                <a href="article-ia-finance.html">Lire l'article</a>
+            </article>
+            <article class="news-article">
+                <h3>Les nouvelles réglementations du M&A en Europe en 2024</h3>
+                <p>Un aperçu des récentes évolutions réglementaires dans les fusions-acquisitions.</p>
+                <a href="article-reglementation-m&a.html">Lire l'article</a>
+            </article>
+        </section>
+
+        <section id="guides" aria-labelledby="guides-heading">
+            <h2 id="guides-heading">Guides pour Étudiants</h2>
+            <p>Accédez à des ressources pédagogiques pour mieux comprendre la finance d'entreprise.</p>
+            <ul class="guide-list">
+                <li><a href="guide-m&a-etudiants.html">Guide : Les méthodes de valorisation à connaître pour être prêt aux entretiens</a></li>
+                <li><a href="guide-private-equity.html">Guide : EBITDA vs EBITDA ajusté : quelles différences?</a></li>
+                <li><a href="guide-preparer-entretien.html">Guide : Comment préparer son CV et sa lettre de motivation pour candidater en M&A?</a></li>
+            </ul>
+        </section>
+
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contactez-nous</h2>
+            <form action="/envoyer" method="POST" aria-label="Formulaire de contact">
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <p>Suivez-nous sur :</p>
+             <div class="social-buttons">
+        <a href="https://www.facebook.com/financecampus" class="social-btn facebook-btn" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://www.linkedin.com/company/financecampus" class="social-btn linkedin-btn" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="https://www.twitter.com/financecampus" class="social-btn x-btn" target="_blank" rel="noopener noreferrer">X</a>
+    </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
